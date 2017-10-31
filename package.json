@@ -1,0 +1,26 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "node static server",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkxxll/anyDoor.git"
+  },
+  "author": "kkxxll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkxxll/anyDoor/issues"
+  },
+  "homepage": "https://github.com/kkxxll/anyDoor#readme"
+}
