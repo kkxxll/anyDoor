@@ -1,9 +1,16 @@
 {
-  "name": "anydoor",
-  "version": "1.0.0",
+  "name": "kkdoor",
+  "version": "1.0.1",
   "description": "node static server",
-  "main": ".eslintrc.js",
-  "dependencies": {},
+  "main": "src/app.js",
+  "bin": {
+    "kkdoor": "bin/kkdoor"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "handlebars": "^4.0.11",
+    "yargs": "^10.0.3"
+  },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.10.0"
